@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.scarnedice.yashj.scarnedice.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/score"
+        android:textSize="30sp"
+        android:textColor="#cf0a0a" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dice"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/dice1"
+        android:layout_below="@+id/score"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/roll"
+        android:text="Roll"
+        android:layout_below="@+id/dice"
+        android:layout_marginTop="30dp"
+        android:background="@color/background_floating_material_dark"
+        android:textColor="#ffffff" />
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="Hold"
+        android:id="@+id/hold"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/roll"
+        android:layout_alignBaseline="@+id/roll"
+        android:background="@color/background_floating_material_dark"
+        android:textColor="#ffffff"
+        />
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/reset"
+        android:text="Reset"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/hold"
+        android:layout_alignBaseline="@+id/hold"
+        android:background="@color/background_floating_material_dark"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/turn"
+        android:textSize="50sp"
+        android:layout_below="@+id/roll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#cf0a0a"
+        />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

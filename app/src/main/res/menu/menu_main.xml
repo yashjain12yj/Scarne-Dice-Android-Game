@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="About us"
+        android:id="@+id/about_us"
+        android:showAsAction="always"
+        android:icon="@drawable/info"
+        tools:ignore="AppCompatResource"></item>
+
+</menu>

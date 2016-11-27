@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "770039110885",
+    "firebase_url": "https://scarne-dice.firebaseio.com",
+    "project_id": "scarne-dice",
+    "storage_bucket": "scarne-dice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770039110885:android:b5f16cd1c7dbed9b",
+        "android_client_info": {
+          "package_name": "com.scarnedice.yashj.scarnedice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770039110885-n8eht0jdg73o35jge6haht2r5jmb82ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfMOhHeP8swWPmox6Hq94Ix4lVhjbf2tY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
